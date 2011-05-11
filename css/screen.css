@@ -1,0 +1,44 @@
+body {
+  background-color:	#111;
+}
+
+a img {
+  border:	none;
+}
+
+h1 {
+  position:	fixed;
+  display:	block;
+  top:		50%;
+  left:		50%;
+  font-size:	500%;
+  margin-left:	-2em;
+  margin-top:	-0.5em;
+}
+
+#name {
+  z-index:	1;
+  color:	#eee;
+}
+
+#glow {
+  text-shadow: 0 0 1em #08f, 0 0 2em #08f;
+}
+
+#contact {
+  position:	fixed;
+  bottom:	0;
+  left:		0;
+  color:	#fff;
+  opacity:	0.5;
+  padding:	0.5em;
+}
+
+#contact p {
+  display:	block;
+  font-size:	50%;
+}
+
+#license {
+  display:	none;
+}
