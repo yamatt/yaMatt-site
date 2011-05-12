@@ -1,0 +1,72 @@
+@font-face {
+  font-family: "Greyscale Basic Bold";
+  src: url("Junction 02.ttf");
+}
+
+body {
+  background-color:	#111;
+  font-family: "Greyscale Basic Bold";
+}
+
+a img {
+  border:	none;
+}
+
+h1 {
+  position:	fixed;
+  display:	block;
+  top:		50%;
+  left:		50%;
+  font-size:	500%;
+  margin-left:	-2em;
+  margin-top:	-0.5em;
+}
+
+#name {
+  z-index:	1;
+  color:	#eee;
+  opacity: 1;
+}
+
+#glow {
+  text-shadow:        0 0 1em #08f, 0 0 2em #08f;
+  opacity:            0.9;
+}
+
+#contact {
+  color:         #fff;
+  position:      fixed;
+  bottom:        0;
+  right:         0;
+  height:        1em;
+  padding:       0.5em;
+  margin-bottom: 5px;
+  opacity:       0.5;
+  overflow-y:    hidden;
+  -webkit-transition-property: height, bottom, opacity;
+  -webkit-transition-duration: 0.5s;
+  -webkit-transition-timing-function:   linear;
+  -moz-transition-property: height, bottom, opacity;
+  -moz-transition-duration: 0.5s;
+  -moz-transition-timing-function:   linear;
+  transition-property: height, bottom, opacity;
+  transition-duration: 0.5s;
+  transition-timing-function:   linear;
+}
+
+#contact:hover {
+  height:  2.5em;
+  opacity: 0.9;
+}
+
+#contact:hover p:after{
+  content: ":";
+}
+
+#contact p {
+  font-size:50%;
+}
+
+#license {
+  display:  none;
+}

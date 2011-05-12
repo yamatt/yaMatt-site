@@ -1,0 +1,45 @@
+@-webkit-keyframes glow {
+  from {
+    opacity:    0.9;
+  }
+  to {
+    opacity:    0.5;
+  }
+}
+
+@-moz-keyframes glow {
+  from {
+    opacity:    0.9;
+  }
+  to {
+    opacity:    0.5;                   
+  }
+}
+
+@keyframes glow {
+  from {
+    opacity:    0.9;
+  }
+  to {
+    opacity:    0.5;                   
+  }
+}
+
+#glow {
+  opacity:                            0.9;
+  -webkit-animation-name: glow;
+  -webkit-animation-duration: 1.5s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  -webkit-animation-timing-function:    linear;
+  -moz-animation-name: glow;
+  -moz-animation-duration: 1.5s;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-direction: alternate;
+  -moz-animation-timing-function:    linear;
+  animation-name: glow;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function:    linear;
+}
