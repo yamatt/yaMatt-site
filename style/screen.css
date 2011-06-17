@@ -14,12 +14,13 @@ a img {
 
 h1 {
   position:	fixed;
+  text-align: center;
   display:	block;
+  width:    80%;
   top:		50%;
   left:		50%;
   font-size:	500%;
-  margin-left:	-2em;
-  margin-top:	-0.5em;
+  margin:   -1em -40%;
 }
 
 #name {
@@ -34,6 +35,7 @@ h1 {
 }
 
 #contact {
+  text-align:   right;
   color:         #fff;
   position:      fixed;
   bottom:        0;
